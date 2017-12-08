@@ -1,0 +1,68 @@
+/* pages/main/main.wxss */
+.allnote{
+  padding: 12px;
+  border-bottom: 1px solid #f8f8f8;
+  box-shadow: #eee;
+  background: white;
+  margin-bottom: 10px;
+  color: #222;
+}
+.body{
+background: black;
+color: #eee;
+}
+.csstitle{
+  font-size: 20px;
+  line-height: 1.7;
+  font-family: inherit;
+  font-weight:bold;
+  color: #000;
+}
+.csscontent{
+  text-overflow: ellipsis; 
+  display: -webkit-box;  
+  -webkit-line-clamp: 3;  
+  overflow: hidden;
+  -webkit-box-orient: vertical; 
+}
+.add{
+  justify-content: center;
+}
+.addImg{
+  width: 85rpx;
+  height: 85rpx;
+  margin: 20rpx;
+  position: fixed;
+  bottom: 20rpx;
+  align-content: right;
+  border-radius: 50%;
+  flex-direction: row;
+  display: flex;
+  right: 20rpx;
+}
+.last{
+    text-align: center;
+  }
+.cssimage{
+  width: 85rpx;
+  height: 85rpx;
+  margin: 10rpx;
+  border-radius: 50%;
+}
+.cssuser{
+  flex-direction: row;
+  display: flex;
+  border-bottom: 1px solid #ebe7eb;
+}
+.csstime{
+  flex-direction: column;
+  display: flex;
+  margin: 10rpx;
+}
+.csstimetext{
+  font-size: 25rpx;
+  margin-top: 15rpx;
+}
+page{
+  background-color: rgb(244, 244, 244);
+}

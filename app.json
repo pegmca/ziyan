@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/main/main",
+    "pages/index/index",
+    "pages/allcontent/allcontent",
+    "pages/communityPublish/communityPublish",
+    "pages/login/login",
+    "pages/comment/comment",
+    "pages/logs/logs",
+    "pages/page1/page1"     
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "校园交流平台",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#0074e1",
+    "list": [
+      {
+        "iconPath":"images/index2.png",
+        "selectedIconPath":"images/index1.png",
+        "pagePath": "pages/main/main",
+        "text": "主页"
+      },
+      {
+        "iconPath": "images/own1.png",
+        "selectedIconPath": "images/own2.png",
+        "pagePath": "pages/login/login",
+        "text": "我的"
+      }
+    ]
+  },
+  "debug": true
+}

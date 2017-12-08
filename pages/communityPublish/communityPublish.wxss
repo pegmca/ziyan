@@ -1,0 +1,94 @@
+.communityPublish-wrap{
+  background-color: #eee;
+  height: 100vh;
+}
+.communityPublish-main{
+  padding: 15px;
+  background-color: #fff;
+  border-bottom: 1px solid #d7d7d7;
+  height: 80%;
+}
+.communityPublish-title-input{
+  width: 100%;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid #e6e6e6;
+  outline: none;
+}
+.communityPublish-content-input{
+  width: 100%;
+  height: 100px;
+  border: none;
+  margin-top: 10px;
+  resize: none;
+  outline: none;
+}
+.communityPublish-img-wrap{
+  margin-top: 5px;
+}
+.communityPublish-item, .communityPublish-item-add{
+  float: left;
+  width: 150rpx;
+  height: 150rpx;
+  position: relative;
+  margin-right: 18rpx;
+  margin-top: 10px;
+}
+.communityPublish-item > image{
+  width: 100%;
+  height: 100%;
+}
+.communityPublish-item-delete{
+  display: block;
+  width: 18px;
+  height: 18px;
+  text-align: center;
+  line-height: 18px;
+  font-size: 16px;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 11px;
+  background-color: #6d695d;
+  position: absolute;
+  top: 2px;
+  right: 2px;
+}
+.communityPublish-item-add{
+  text-align: center;
+  line-height: 63px;
+  color: #cbcbcb;
+  font-size: 60px;
+  border: 1px dashed #ccc;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  overflow: hidden;
+}
+.communityPublish-tip{
+  color: #a3a3a3;
+  margin-top: 15px;
+  font-size: 0.6em;
+}
+.communityPublish-btn{
+  display: block;
+  width: 90%;
+  height: 35px;
+  border: none;
+  color: black;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 3px;
+  margin-top: 20px;
+  line-height: 35px;
+}
+.communityPublish-classify-wrap{
+  margin-top: 20px;
+}
+.communityPublish-classify{
+  display: inline-block;
+  width: 190px;
+  height: 28px;
+  margin-left: 10px;
+  padding-left: 10px;
+  line-height: 28px;
+  border: 1px solid #ccc;
+}

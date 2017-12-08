@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="container">
+    <text wx:for = "{{list}}">{{index}}:{{item[1]}}</text>
+    <button bindtap='clickMe'> 获取头像昵称 </button>
+</view>

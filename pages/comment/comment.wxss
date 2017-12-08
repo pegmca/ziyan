@@ -1,0 +1,61 @@
+/* pages/comment/comment.wxss */
+.cssComment{
+  margin-left: 20dp;
+  margin-bottom: 0rpx;
+  position: fixed;
+  padding: 20rpx;
+  flex-direction: row;
+  display: flex;
+  bottom: 0rpx;
+  width: 100%;
+  color: black;
+  background-color: #fafafa;
+}
+.cssinputText{
+  width: 85%;
+  border-bottom: 1px solid #ebe7eb;
+}
+.csstimetextbottom{
+  font-size: 25rpx;
+  padding-top:10rpx;
+  padding-bottom: 10rpx;
+}
+.authorName
+{
+  padding-top: 10rpx;
+  padding-bottom: 20rpx;
+}
+.csstimetext{
+  padding-top: 10rpx;
+  padding-bottom: 10rpx;
+}
+.cssSendImg{
+  margin-left: 15rpx;
+  margin-bottom: 15rpx;
+  height: 60rpx;
+  width: 60rpx;
+}
+.csstime{
+  flex-direction: column;
+  display: flex;
+  word-break: break-all;
+}
+.cssimage{
+  width: 85rpx;
+  margin: 15rpx;
+  height: 85rpx;
+  border-radius: 50%;
+}
+.cssuser{
+  flex-direction: row;
+  display: flex;
+  background-color: white;
+  margin-bottom: 20rpx;
+  border-bottom: 1px solid #ebe7eb;
+}
+.last{
+    text-align: center;
+  }
+page{
+  background-color: rgb(244, 244, 244)
+}

@@ -1,0 +1,20 @@
+<view class="communityPublish-wrap" id="communityPublish">
+  <view class="communityPublish-main">
+    <view class="communityPublish-title">
+      <input class="communityPublish-title-input" id="communityPublish-title-input" placeholder="标题" placeholder-style="color:#909090;" type="text" bindblur="bindTitleInput" value="{{articleData.title}}" />
+    </view>
+    <view class="communityPublish-content">
+      <textarea class="communityPublish-content-input" id="communityPublish-content-input" placeholder="内容" placeholder-style="color:#909090;" bindinput="bindTextInput" maxlength="-1" value="{{articleData.text}}" />
+    </view>
+    <view class="communityPublish-img-wrap">
+      <view class="communityPublish-ul clearfix" id="communityPublish-ul">
+        <view wx:for="{{articleData.imgs}}" wx:key="" class="communityPublish-item">
+          <view class="communityPublish-item-delete" data-index="{{index}}" catchtap="deleteImg">×</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="communityPublish-foot">
+    <button class="communityPublish-btn" catchtap="submitData" >发布</button>
+  </view>
+</view>

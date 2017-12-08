@@ -1,0 +1,113 @@
+/* pages/allcontent/allcontent.wxss */
+.csstitle{
+  font-size: 20px;
+  line-height: 1.7;
+  font-weight:bold;
+  color: #000;
+  padding: 32rpx;
+  margin-bottom: 20rpx;
+  word-break:keep-all;
+  background-color: white;
+  border-top: 1px solid #ebe7eb;
+  border-bottom: 1px solid #ebe7eb;
+}
+.textContent{
+  padding: 5rpx;
+  align-content: center;
+  margin-top: -40px;
+}
+
+.content{
+
+}
+.csscontent{
+  padding: 15px;
+  text-overflow: ellipsis; 
+  display: -webkit-box;  
+  overflow: scroll;
+  font-size: 40rpx;
+  -webkit-box-orient: vertical;
+  background-color: white; 
+  
+  height: 100%; 
+  /* display:flex;
+  flex-direction: row; */
+  line-height: 1.7;
+  
+}
+.cssimage{
+  width: 100rpx;
+  height: 100rpx;
+  margin: 10rpx;
+  border-radius: 50%;
+}
+.cssimageandname{
+  flex-direction: row;
+  display: flex;
+  background-color: white;
+  border-bottom: 1px solid #ebe7eb;
+  /* //position: relative; */
+}
+.name{
+  margin-top: 35rpx;
+  padding-left: 20rpx;
+}
+.csstime{
+  margin-top: 100%;
+  color: #868889;
+}
+.allcomment{
+  margin-top: 20dp;
+  position: fixed;
+  flex-direction: row;
+  bottom: 0rpx;
+  width: 100%;
+  display: flex;
+  color: black;
+  border-top: 1px solid #ebe7eb;
+}
+.time{
+  text-align: right;
+}
+.imagePraise{
+  width: 70rpx;
+  height: 70rpx;
+  margin: 12rpx;
+}
+.textPraise{
+    margin: 18rpx;
+    margin-top: 25rpx;
+}
+.allPraise{
+  flex-direction: row;
+  display: flex;
+  text-align: center;
+  background-color: white;
+  width: 50%;
+  justify-content: center;
+  border-right: 1px solid #ebe7eb;
+}
+.textComment
+{
+  align-items: center;
+  justify-content: center;
+}
+.comment{
+    /* padding: auto;
+    text-align: center;
+    flex:1;
+    background-color: white;
+    justify-content:  */
+    flex-direction: row;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  background-color: white;
+  width: 50%;
+  justify-content: center;
+}
+page{
+    background-color: rgb(244, 244, 244);
+    height: 100%;
+}
+/* text-indent: 2em;*/

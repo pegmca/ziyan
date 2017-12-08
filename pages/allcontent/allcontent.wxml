@@ -1,0 +1,46 @@
+<!--pages/allcontent/allcontent.wxml-->
+<view class = "csstitle">{{title}}</view>
+<view class = "cssimageandname">
+<image src='{{icon||"../../image.png"}}' class = "cssimage"></image>
+<text class = "name">{{name}}</text>
+</view>
+<!--获取时间-->
+<wxs module="formatTime">     
+var formatTime = function(str){
+if((typeof str)=='string'){
+  return str.split(" ")[0];
+  }
+else return '';
+}
+module.exports.formatTime = formatTime;
+</wxs>
+
+<view class='csscontent'  bindtap='changeBar'>
+  <view class = "textContent">
+    <text class = "content">
+    {{content}}
+    </text>
+  </view>
+  <view class = "time">
+  <text class= "csstime">\n\n编辑于 {{formatTime.formatTime(time)}}\n\n\n</text>
+  </view>
+</view>
+
+
+<view class = "allcomment">
+
+  <view class = "allPraise">
+    <image src='{{imgPraise}}' class= "imagePraise" bindtap='changeImg'></image>
+    <text class = "textPraise">{{praise}}</text>
+  </view>
+ 
+  <view class = "comment" data-id="{{id}}" bindtap='inputComment'>
+ 
+  <text class = "textComment">评论</text>
+  
+  </view>
+
+
+</view>
+
+

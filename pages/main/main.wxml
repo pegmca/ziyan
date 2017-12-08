@@ -1,0 +1,39 @@
+<!--pages/main/main.wxml-->
+<block class = "body">
+<view wx:for="{{allrecdata}}" wx:for-index="index" wx:for-item="item" display="block" class = 'allnote'>
+<view class= "cssuser">
+
+  <image src='{{item.icon ||"../../image.png"}}' class = "cssimage"></image>
+  <view class = "csstime">
+    <text>{{item.name}}</text>
+    <text class = "csstimetext">{{item.meta.upDateAt}}\t</text>
+  </view>
+</view>
+<view class = "csstitle">
+<text>{{item.title}}</text>
+</view>
+<view class = "csscontent" data-content="{{item.content}}" data-name="{{item.name}}" 
+data-title="{{item.title}}" data-icon="{{item.icon}}" data-time="{{item.meta.upDateAt}} 
+data-id="{{item._id}}" bindtap="showallcontent">
+<text>{{item.content}}</text>
+</view>  <!--点击内容显示出所有的内容-->
+<!--class = "csscontent" -->
+
+</view>
+
+</block>
+<text>\n\n</text>
+<view class= "last">\t\t我是有底线的</view>
+<text>\n\n\n</text>
+
+
+<!-- 
+<button class = "add" bindtap="publish" 
+>我要发帖</button>
+-->
+
+<view class="add">
+  <image src='../../add.png'class = "addImg"  bindtap="publish"></image>
+</view>
+
+

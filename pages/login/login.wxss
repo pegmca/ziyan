@@ -1,0 +1,21 @@
+/* pages/login/login.wxss */
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+.csslogin{
+  flex-direction: row;
+  display: flex;
+}
+.textlogin{
+  margin: 300rpx;
+  text-align: center;
+}
+.cssuserName{
+  display: flex;
+  
+  margin: 60rpx;
+  flex-direction: row;
+}

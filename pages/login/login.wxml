@@ -1,0 +1,9 @@
+<!--pages/login/login.wxml-->
+<view class = "csslogin">
+<image  src="{{imageInfo}}" class="userinfo-avatar" background-size="cover"></image>
+<text class = "cssuserName">{{userName}}</text>
+
+</view>
+<button class = "textlogin" bindtap='loginwx'>登录</button>
+
+

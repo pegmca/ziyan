@@ -1,0 +1,27 @@
+<!--pages/comment/comment.wxml-->
+<view wx:for="{{allCommentList}}" wx:for-index="index" wx:for-item="item" display="block" class = 'allnote'>
+<view class= "cssuser">
+  <view>
+    <image src='{{item.author.icon ||"../../image.png"}}' class = "cssimage"></image>
+  </view>
+  <view class = "csstime">
+      <text class = "authorName">{{item.author.name}}</text>
+      <text class = "csstimetext">{{item.content}}</text>
+      <text class = "csstimetextbottom">{{item.time}}</text>
+  </view>
+
+</view>
+<view class = "csstitle">
+<!-- <text>{{item.time}}</text>-->
+</view>
+
+</view>
+<text>\n\n</text>
+<view class= "last">没有更多内容</view>
+<text>\n\n\n</text>
+<view class = "publishComment">
+  <view class= "cssComment">
+      <input placeholder="添加评论" auto-focus class = "cssinputText"placeholder-style="color:#909090;" type="text" bindinput="inputComment" value="{{inputValue}}"/>
+      <image src='../../send.png' class='cssSendImg' bindtap='sendComment'></image>
+  </view>
+</view>
