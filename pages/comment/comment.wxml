@@ -22,6 +22,6 @@
 <view class = "publishComment">
   <view class= "cssComment">
       <input placeholder="添加评论" auto-focus class = "cssinputText"placeholder-style="color:#909090;" type="text" bindinput="inputComment" value="{{inputValue}}"/>
-      <image src='../../send.png' class='cssSendImg' bindtap='sendComment'></image>
+      <image src='/images/send.png' class='cssSendImg' bindtap='sendComment'></image>
   </view>
 </view>

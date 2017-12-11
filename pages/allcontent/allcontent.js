@@ -11,7 +11,7 @@ Page({
     icon:'',
     time: [],
     praise: 0,
-    imgPraise: "../../before.png",
+    imgPraise: "/images/before.png",
     id: [],
     isPrise: "no"
   },
@@ -74,7 +74,7 @@ Page({
       var that = this;
       if (that.data.isPraise == "no" && t.globalData.imageInfo != "" && t.globalData.userName !="匿名用户"){
       that.setData({
-        imgPraise: "../../after.png",
+        imgPraise: "/images/after.png",
         isPraise: "yes",
         praise: that.data.praise+1
       })
@@ -82,7 +82,7 @@ Page({
       else if (that.data.isPraise == "yes" && t.globalData.userName != "匿名用户")
       {
         that.setData({
-          imgPraise: "../../before.png",
+          imgPraise: "/images/before.png",
           isPraise: "no",
           praise: that.data.praise - 1
         })
@@ -161,13 +161,13 @@ Page({
         if(that.data.isPraise == "yes")
         {
           that.setData({
-            imgPraise: "../../after.png",
+            imgPraise: "/images/after.png",
           })
         }
         else if (that.data.isPraise == "no")
         {
           that.setData({
-            imgPraise: "../../before.png",
+            imgPraise: "/images/before.png",
           })
         }
         console.log("从服务器获取赞成功")

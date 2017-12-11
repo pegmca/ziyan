@@ -33,7 +33,7 @@ data-id="{{item._id}}" bindtap="showallcontent">
 -->
 
 <view class="add">
-  <image src='../../add.png'class = "addImg"  bindtap="publish"></image>
+  <image src='/images/add.png'class = "addImg"  bindtap="publish"></image>
 </view>
 
 
