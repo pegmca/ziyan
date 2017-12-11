@@ -13,15 +13,20 @@
 
 
 #### 截图
-![主页](http://upload-images.jianshu.io/upload_images/606862-f7233cef3ce8b4c0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![主页](http://upload-images.jianshu.io/upload_images/606862-db4a1274668bf94a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-![登录](http://upload-images.jianshu.io/upload_images/606862-1f029cf76602534c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![登录](http://upload-images.jianshu.io/upload_images/606862-4b2ae153310e1c01.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-![评论](http://upload-images.jianshu.io/upload_images/606862-c62bfc04300d07eb.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-![发表](http://upload-images.jianshu.io/upload_images/606862-8485e23f724a5fb3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![发布](http://upload-images.jianshu.io/upload_images/606862-b99896759a7307c8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-![查看](http://upload-images.jianshu.io/upload_images/606862-4cae14d72d817269.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![查看内容](http://upload-images.jianshu.io/upload_images/606862-e0b525def712b97e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+![评论](http://upload-images.jianshu.io/upload_images/606862-6b26b5fa6e71ce4f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+
+
+
+
 
 
 
