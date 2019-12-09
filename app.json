@@ -12,7 +12,7 @@
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "校园交流平台",
+    "navigationBarTitleText": "知乎",
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
